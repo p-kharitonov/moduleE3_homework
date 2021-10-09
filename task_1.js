@@ -1,4 +1,5 @@
-Задание 1
+// Задание 1
+
 function showCountNumber(arr) {
     let countEven = 0;
     let countOdd = 0;
@@ -16,7 +17,7 @@ function showCountNumber(arr) {
         }
     });
     console.log("Четных: " + countEven);
-    console.log("Не четных: " + countOdd);
+    console.log("Нечетных: " + countOdd);
     console.log("Нулей: " + countZero);
     return null
 }
